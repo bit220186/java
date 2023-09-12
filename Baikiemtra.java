@@ -212,7 +212,8 @@ public class Baikiemtra {
     }
     static void displayPersons() {
         for (Person p : persons) {
-            System.out.print(p.name + " - " + p.getRole() + " - KPI: ");
+            System.out.print(p.name + " - " + p.getRole() + " - KPI: "+ p.calculateKPI());
+            
         }
     }
     static void displayProfessorsCount() {
